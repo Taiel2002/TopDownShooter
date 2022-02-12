@@ -124,10 +124,10 @@
                 "m_Id": "ab69fd40c02c49b2a534deb5ba7f5180"
             },
             {
-                "m_Id": "a9a5ec9b56ed447e897c68b55eff4297"
+                "m_Id": "dc86c644c15e474bbbce506e025eb60d"
             },
             {
-                "m_Id": "dc86c644c15e474bbbce506e025eb60d"
+                "m_Id": "a9a5ec9b56ed447e897c68b55eff4297"
             }
         ]
     },
@@ -668,10 +668,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 0.0,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
+            "x": 11.99999713897705,
+            "y": 399.0,
+            "width": 200.0,
+            "height": 41.0
         }
     },
     "m_Slots": [
@@ -733,9 +733,9 @@
     "m_ShaderOutputName": "Emission",
     "m_StageCapability": 2,
     "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
     },
     "m_DefaultValue": {
         "x": 0.0,

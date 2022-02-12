@@ -16,9 +16,11 @@ public class BulletMovement : MonoBehaviour
         StartCoroutine(DestroyBullet());
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        Instantiate(collisionVFX, transform.position, Quaternion.identity);
+        Vector3 rotation = new Vector3(transform.rotation.x, transform.rotation.y - 180, transform.rotation.z);
+        Instantiate(collisionVFX, transform.position, Quaternion.Euler(rotation)); ;
+        Destroy(this.gameObject);
     }
 
     IEnumerator DestroyBullet()
