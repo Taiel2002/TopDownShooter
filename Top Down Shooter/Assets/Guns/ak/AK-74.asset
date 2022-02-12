@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AK-74
   m_EditorClassIdentifier: 
   gun: {fileID: 1000010118919020, guid: a6d0754d440e3664fb2b639b2a7d08ca, type: 3}
-  bullet: {fileID: 3543551090706354271, guid: 1925b1d66ba284044b7ec6fdb6e929a0, type: 3}
+  bullet: {fileID: 3573004392242213342, guid: f6bce4e0b13dac443868cb89d9c82551, type: 3}
   maxAmmo: 30
   rechargeTime: 2
   maxRecoil: 0.1

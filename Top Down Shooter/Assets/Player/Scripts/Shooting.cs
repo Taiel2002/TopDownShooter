@@ -108,7 +108,7 @@ public class Shooting : MonoBehaviour
 
             if (cRecoil <= 0 && weight >= 1)
             {
-                Instantiate(bullet, cannon.position, cannon.rotation);
+                Instantiate(bullet, cannon.position, transform.rotation );
                 gunAmmo -= 1;
                 recoil = maxRecoil;
             }            
