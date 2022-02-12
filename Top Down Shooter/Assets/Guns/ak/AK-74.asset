@@ -16,4 +16,4 @@ MonoBehaviour:
   bullet: {fileID: 3573004392242213342, guid: f6bce4e0b13dac443868cb89d9c82551, type: 3}
   maxAmmo: 30
   rechargeTime: 2
-  maxRecoil: 0.1
+  maxRecoil: 0.2
